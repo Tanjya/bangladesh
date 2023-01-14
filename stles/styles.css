@@ -1,5 +1,6 @@
 *{
     margin: 0px;
+    font-style: normal;
 }
 .first{
     background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
@@ -84,4 +85,152 @@ hr{
     border-bottom: 0px;
     border-left: 0px;
     border-right: 0px;
+}
+/*donate plan page*/
+.plan{
+    align-items: center;
+    
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.plan-description{
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+    padding: 0px 70px;
+    text-align: center;
+}
+.all-category{
+    display: flex;
+    gap: 25px;
+    padding: 0px 150px;
+}
+.blue{
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 50px;
+}
+.red{
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 50px;
+}
+.yellow{
+    background: rgb(207, 207, 184);
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 50px;
+}
+.category-description{
+
+    color: #707070;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 50px;
+}
+.category-title{
+    color: #121212;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 30px;
+}
+/*Their lives depend on your donation*/
+.left-right{
+    display: flex;
+    gap: 83px;
+    padding: 0px 150px;
+}
+.left-side{
+    margin-top: 180px;
+}
+.image-right{
+    margin-top: 130px;
+}
+.left-title{
+    color: #121212;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.left-description{
+    color: #707070;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*survive page*/
+/*update section*/
+.updates{
+    padding: 0px 430px;
+    margin-bottom: 50px;
+    margin-top: 130px;
+    text-align: center;
+    align-items: center;
+}
+
+.sub-btn{
+    background: #FF5959;
+    border-radius: 5px;
+    border: solid;
+    border: 0px;
+    color: #FFFFFF;
+    padding: 4px 15px;
+    height: 40px;
+    margin-right: 20px;
+    
+}
+
+.text-box input{
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    width: 275px;
+    height: 40px;
+    border: none;
+
+}
+.email-subscribe{
+    
+    
+    background: #FFF4D6;
+    margin: 40px 300px;
+    padding: 60px 300px ;
+}
+/*last page*/
+.humble{
+    background: #0B0D17;
+    margin-top: 100px;
+}
+.humble-title{
+    color: #FF5959;
+    letter-spacing: 0.5px;
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+}
+.humble-description{
+    color: #D9DBE1;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.both-classes{
+    align-items: center;
+    display: flex;
+    margin-right:50px;
 }
