@@ -185,9 +185,10 @@ hr{
     border: solid;
     border: 0px;
     color: #FFFFFF;
-    padding: 4px 15px;
+    padding: 4px 18px;
     height: 40px;
-    margin-right: 20px;
+    width: 150px;
+    
     
 }
 
@@ -200,11 +201,9 @@ hr{
 
 }
 .email-subscribe{
-    
-    
     background: #FFF4D6;
     margin: 40px 300px;
-    padding: 60px 300px ;
+    padding: 60px 300px 60px 200px;
 }
 /*last page*/
 .humble{
