@@ -181,7 +181,7 @@ hr{
 
 .sub-btn{
     background: #FF5959;
-    border-radius: 5px;
+    border-radius: 0px;
     border: solid;
     border: 0px;
     color: #FFFFFF;
@@ -198,13 +198,10 @@ hr{
     width: 275px;
     height: 40px;
     border: none;
+    padding: 0px 10px;
 
 }
-.email-subscribe{
-    background: #FFF4D6;
-    margin: 40px 300px;
-    padding: 60px 300px 60px 200px;
-}
+
 /*last page*/
 .humble{
     background: #0B0D17;
@@ -229,7 +226,9 @@ hr{
 
 }
 .both-classes{
+    background: #FFF4D6;
+    margin: 40px 300px;
+    padding: 60px 300px 60px 200px;
     align-items: center;
     display: flex;
-    margin-right:50px;
 }
